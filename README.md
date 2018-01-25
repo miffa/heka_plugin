@@ -1,6 +1,8 @@
 # heka_filter_decoder
 mozala heka  decoder
 
+> filer pack by filter_formula
+
 ```
 [myfilter_decoder]
 type="FilterDecoder"
