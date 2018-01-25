@@ -1,7 +1,7 @@
 # heka_filter_decoder
 mozala heka  decoder
 
-> filer pack by filter_formula
+> filer pack by filter_formula, used with multidecoder
 
 ```
 [myfilter_decoder]
