@@ -24,3 +24,21 @@ topics = ["top1", "top2"]
 group = "consumergroup"
 decoder = "xxxxxdecoder" 
 ```
+
+#hdfs output
+
+> write data fo hdfs, if file not exist, create it, otherwise append data to it
+
+```
+ [hdfs-output]
+     type = "HDFSOutput"
+     message_matcher = "Type == 'perfdata1'"
+     host = "10.222.220.220:50070"
+     user="hadoop"
+     path = "/uparse_test/%Y-%m-%d/${yourfieldname}/mytest"
+     extension = "txt"
+     timestamp = false
+     encoder="demo_jsondecoder"
+     replication = 2
+     interpolate = true
+```
