@@ -25,7 +25,7 @@ group = "consumergroup"
 decoder = "xxxxxdecoder" 
 ```
 
-#hdfs output
+# hdfs output
 
 > write data fo hdfs, if file not exist, create it, otherwise append data to it
 
