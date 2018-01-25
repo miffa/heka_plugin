@@ -23,4 +23,5 @@ type="CompatibleKafkaInput"
 brokers="ip1:port1,ip2:port2"
 topics = ["top1", "top2"]
 group = "consumergroup"
+decoder = "xxxxxdecoder" 
 ```
