@@ -12,10 +12,9 @@ filter_formula = "Fields[created] =~ /%TIMESTAMP%/ || Fields[foo] == ‘alternat
 
  [here it is](http://hekad.readthedocs.io/en/v0.10.0/message_matcher.html) filter_formula format
 
-# heka_filter_decoder
-mozala heka  decoder
+# kafka consumer
 
-> filer pack by filter_formula, used with multidecoder
+> consumer data from kafka, offset soored in kafka, rebalance partions 
 
 ```
 [kafkainput]
